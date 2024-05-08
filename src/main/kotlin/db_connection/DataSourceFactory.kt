@@ -1,3 +1,7 @@
+package db_connection
+
+import com.zaxxer.hikari.HikariConfig
+import com.zaxxer.hikari.HikariDataSource
 import javax.sql.DataSource
 
 object DataSourceFactory {
